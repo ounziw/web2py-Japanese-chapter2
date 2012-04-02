@@ -858,7 +858,7 @@ This syntax is necessary to avoid ambiguity when declaring nested classes, such 
 
 ### 特殊属性、メソッド、演算子
 
-2つのアンダスコアから始まるクラス属性、メソッド、演算子は、一般にプライベートであることを意図しますが、これはインタプリタによって強制される慣例ではありません。
+2つのアンダスコアから始まるクラス属性、メソッド、演算子は、一般にプライベート（クラス内でのみ使用し、クラス外から呼び出されない）であることを意図しますが、これはインタプリタによって強制される慣例ではありません。
 Class attributes, methods, and operators starting with a double underscore are usually intended to be private (i.e. to be used internally but not exposed outside the class) although this is a convention that is not enforced by the interpreter.
 
 そのうちのいくつかは予約されたキーワードで、特別な意味を持っています。
