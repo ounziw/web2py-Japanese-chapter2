@@ -513,7 +513,7 @@ done
 例外が発生したときは、``except``句で補足され、その句が実行されますが、``else``句は実行されません。例外が発生しなかった場合は、``except``句は実行されず、``else``句が実行されます。``finally``句は常に実行されます。
 If the exception is raised, it is caught by the ``except`` clause, which is executed, while the ``else`` clause is not. If no exception is raised, the ``except`` clause is not executed, but the ``else`` one is. The ``finally`` clause is always executed.
 
-可能性のある異なる例外のために複数の``except``句をとることができます:
+異なる例外が発生する可能性があるために複数の``except``句をとることができます:
 There can be multiple ``except`` clauses for different possible exceptions:
 ``
 >>> try:
