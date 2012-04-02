@@ -3,7 +3,7 @@
 ``Python``:inxx
 
 ### Pythonについて
-Pythonは高水準で凡用性の高いプログラミング言語です。開発者の生産性と可読性に重きを置いて設計されています。 その設計思想は、プログラマの生産性とコードの読みやすさを強調しています。簡単なセマンティックと基礎的なコマンドを最小限の核となる構文を持ちます。一方で、大規模で総括的な標準ライブラリを有し、多くのオペレーティングシステム(OS)の機能を基礎としたアプリケーションプログラミング(API)を含んでいます。Pythonのコードは最小主義ですが、リンクリスト(``list``)、タプル(``tuple``)、ハッシュテーブル(``dict``)、任意長の整数(``long``)などの組み込みオブジェクトを定義しています。
+Pythonは高水準で凡用性の高いプログラミング言語です。開発者の生産性と可読性に重きを置いて設計されています。 その設計思想は、プログラマの生産性とコードの読みやすさを強調しています。簡単なセマンティックと基礎的なコマンドを最小限の核となる構文を持ちます。一方で、大規模で総括的な標準ライブラリを有し、多くのオペレーティングシステム(OS)の機能を基礎としたAPIを含んでいます。Pyhonのコードは最小主義ですが、リンクリスト(``list``)、タプル(``tuple``)、ハッシュテーブル(``dict``)、任意長の整数(``long``)などの組み込みオブジェクトを定義しています。
 Python is a general-purpose high-level programming language.
 Its design philosophy emphasizes programmer productivity and code readability. It has a minimalist core syntax with very few basic commands and simple semantics, but it also has a large and comprehensive standard library, including an Application Programming Interface (API) ``API``:inxx to many of the underlying operating system (OS) functions. Python code, while minimalist, defines built-in objects such as linked lists (``list``), tuples (``tuple``), hash tables (``dict``), and arbitrarily long integers (``long``).
 
