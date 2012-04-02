@@ -741,7 +741,7 @@ The expression "``lambda`` [a]:[b]" literally reads as "a function with argument
 5
 ``:code
 
-``lambda``の長所はその簡潔さです。簡潔さはある状況で非常に便利です。リスト上の要素全てに関数を適用し新しいリストを作成する``map``という名前の関数を考えて見ましょう。
+``lambda``の長所はその簡潔さだけです。しかし、簡潔さはある状況で非常に便利です。リスト上の要素全てに関数を適用し新しいリストを作成する``map``という名前の関数を考えて見ましょう。
 The only benefit of ``lambda`` is brevity; however, brevity can be very convenient in certain situations.  Consider a function called ``map`` that applies a function to all items in a list, creating a new list:
 ``
 >>> a = [1, 7, 2, 5, 4, 8]
