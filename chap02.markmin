@@ -749,7 +749,7 @@ The only benefit of ``lambda`` is brevity; however, brevity can be very convenie
 [3, 9, 4, 7, 6, 10]
 ``:code
 
-``lambda``の代わりに``def``を使用した場合、コード量は2倍になります。``lambda``の主な欠点（Pythonの実装で）は単一式しか許可しない点です。長い記述の関数の場合は関数名を指定する手間のある``def``使用することで、関数の記述量が増えて言っても対応できます。
+``lambda``の代わりに``def``を使用した場合、コード量は2倍になります。``lambda``の主な欠点（Pythonの実装で）は単一式しか許可しない点です。長い記述の関数の場合は関数名を指定する手間のある``def``使用することで、関数の記述量が増えていっても対応できます。
 ``def``や``lambda``が関数を''curry''（ネスト）することができるように、既存の関数を包括した新しい関数を作成することで新しい関数が異なる変数セットを持つことができます。
 This code would have doubled in size had ``def`` been used instead of ``lambda``. The main drawback of ``lambda`` is that (in the Python implementation) the syntax allows only for a single expression; however, for longer functions, ``def`` can be used and the extra cost of providing a function name decreases as the length of the function grows.
 Just like ``def``, ``lambda`` can be used to ''curry'' functions: new functions can be created by wrapping existing functions such that the new function carries a different set of arguments:
