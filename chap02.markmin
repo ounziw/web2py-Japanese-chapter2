@@ -760,7 +760,7 @@ Just like ``def``, ``lambda`` can be used to ''curry'' functions: new functions 
 5
 ``:code
 
-関数をネストすることが便利な状況はいろいろありますが、以下の例で挙げるのはweb2pyで特に便利な使用方法です。引数が素数であるかを確認する高負荷な関数を考えて見ましょう。
+関数をネストすることが便利な状況はいろいろありますが、以下で挙げるキャッシュの例はweb2pyで特に便利な使用方法です。引数が素数であるかを確認する高負荷な関数を考えて見ましょう。
 There are many situations where currying is useful, but one of those is directly useful in web2py: caching. Suppose you have an expensive function that checks whether its argument is prime:
 ``
 def isprime(number):
