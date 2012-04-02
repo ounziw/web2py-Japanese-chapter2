@@ -485,7 +485,7 @@ one
 other
 ``:code
 
-"elifは""else if"の意味です。``elif``と``else``句はどちらも省略可能です。``elif``は何回も利用可能ですが、``else``は一度だけです。 複雑な条件文は``not``、``and``、``or``の演算子を利用し作成することができます。
+"elifは""else if"の意味です。``elif``句と``else``句はどちらも省略可能です。``elif``は何回も利用可能ですが、``else``は一度だけです。 複雑な条件文は``not``、``and``、``or``の演算子を利用し作成することができます。
 "elif" means "else if". Both ``elif`` and ``else`` clauses are optional. There can be more than one ``elif`` but only one ``else`` statement. Complex conditions can be created using the ``not``, ``and`` and ``or`` operators.
 ``
 >>> for i in range(3):
@@ -525,7 +525,7 @@ There can be multiple ``except`` clauses for different possible exceptions:
 syntax error
 ``:code
 
-``else``と``finally``は省略可能です。
+``else``句と``finally``句は省略可能です。
 The ``else`` and ``finally`` clauses are optional.
 
 以下は、組み込みのPython例外のリストと(web2pyで定義されている)HTTP例外です。
