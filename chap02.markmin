@@ -582,7 +582,7 @@ BaseException
 	   +-- UnicodeWarning
 ``:code
 
-各項目の詳細については、公式のPythonドキュメントを参照してください。
+各項目の詳細については、Python公式ドキュメントを参照してください。
 For a detailed description of each of them, refer to the official Python documentation.
 
 web2pyは、``HTTP``と呼ばれる新しい例外を1つだけ公開しています。その例外が発生すると、プログラムはHTTPエラーページを返すようになります(詳細は第4章を参照してください)。
